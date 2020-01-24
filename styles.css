@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-image: url(nature1.jpg); */
+  background-color: #ADD8E6;
+  background-size: cover;
+}
+
+nav {
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+}
+
+nav p {
+  font-family: arial;
+  color: Blue;
+  font-size: 24px;
+  line-height: 40px;
+  float: left;
+  padding: 0px 10px;
+
+}
+
+nav ul {
+
+  float: left;
+}
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  font-family: arial;
+  color: #222;
+  font-size: 14px;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #ffea6a;
+  padding: 10px;
+  border-radius: 0px 0px 4px 4px;
+}
+nav ul li:hover ul {
+  display: block;
+
+}
+nav ul li ul li{
+  width: 100px;
+  border-radius: 4px;
+}
+
+nav ul li ul li a: hover {
+  background-color: #f3f3f3;
+}
+
+h2 {
+  background-color: #ffea6a;
+  text-align: center;
+  color: blue;
+  font-size: 50px;
+
+}
+.index-h1 {
+  font-size: 50px;
+  text-align: center;
+  color: Yellow;
+}
+.slogan {
+  color: white;
+  text-align:center;
+
+}
+.highlighted p {
+  color: white;
+  font-size: 25px;
+}
+.highlighted li {
+
+  color: Blue;
+  font-size: 40px;
+}
+.project-names {
+  font-size: 35px;
+  color: white;
+
+}
+div p {
+  font-size: 25px;
+  color: orange;
+}
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    /*background-color: #F09A9D;  Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    /*background-color: #F5CF8E;  Yellow */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    /*background-color: #B2D6FF;  Blue */
+  }
